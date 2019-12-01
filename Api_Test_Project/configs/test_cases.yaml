@@ -1,0 +1,44 @@
+# """
+# ===========================
+# Author:帅迪
+# Time:2019/11/18
+# Mail:1306177347@qq.com
+# ===========================
+# """
+
+# cases用例类读取datas中excel的配置，读取文件名等
+excel:
+    cases_path: cases.xlsx
+    actual_col: 7
+    result_col: 8
+# cases用例类判断断言结果的配置
+msg:
+  success_result: Success
+  fail_result: Fail
+# log封装中的配置
+log:
+  log_name: cases
+  logger_level: DEBUG
+  formatter: '%(asctime)s - [%(filename)s-->line:%(lineno)d] - %(levelname)s: %(message)s'
+  stream_level: DEBUG
+  logfile_name: test.log
+  logfile_level: DEBUG
+# run.py启动文件中生成报告的配置
+report:
+  name: report
+  title: '测试报告'
+  description: '这是一个测试报告'
+  tester: 'Jeff'
+# mysql封装中对连接对象的配置
+mysql:
+  host: 'api.lemonban.com'
+  user: 'future'
+  password: '123456'
+  database: 'futureloan'
+  port: 3306
+  select_user_sql: "SELECT * FROM member WHERE mobile_phone = %s ;"
+  select_user_id_sql: "SELECT id FROM member WHERE mobile_phone = %s ;"
+# cases 用例类读取接口请求头的配置
+api:
+  version: {"X-Lemonban-Media-Type": "lemonban.v2"}
+  prefix: "http://api.lemonban.com/futureloan"

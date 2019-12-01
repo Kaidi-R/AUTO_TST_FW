@@ -1,0 +1,768 @@
+2019-11-26 16:39:22,838 - [test_05_invest.py-->line:109] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 16:39:23,266 - [test_05_invest.py-->line:109] - INFO: 借款人加标的执行结果为Success
+2019-11-26 16:39:23,554 - [test_05_invest.py-->line:109] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 16:39:23,828 - [test_05_invest.py-->line:109] - INFO: 管理员审核的执行结果为Success
+2019-11-26 16:39:24,127 - [test_05_invest.py-->line:109] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 16:39:24,438 - [test_05_invest.py-->line:109] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 16:39:24,796 - [test_05_invest.py-->line:109] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 16:39:25,519 - [test_05_invest.py-->line:109] - INFO: 标id为空的执行结果为Success
+2019-11-26 16:39:25,771 - [test_05_invest.py-->line:109] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 16:39:26,171 - [test_05_invest.py-->line:109] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 16:39:26,611 - [test_05_invest.py-->line:109] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 16:39:27,197 - [test_05_invest.py-->line:109] - INFO: 标id为负数的执行结果为Success
+2019-11-26 16:39:27,444 - [test_05_invest.py-->line:109] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 16:39:27,726 - [test_05_invest.py-->line:109] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 16:39:28,322 - [test_05_invest.py-->line:109] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 16:39:28,763 - [test_05_invest.py-->line:109] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 16:39:29,224 - [test_05_invest.py-->line:109] - INFO: 标id不存在的执行结果为Success
+2019-11-26 16:39:29,738 - [test_05_invest.py-->line:109] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 16:40:09,199 - [test_01_register.py-->line:67] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-26 16:40:09,968 - [test_01_register.py-->line:67] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-26 16:40:10,459 - [test_01_register.py-->line:67] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-26 16:40:10,995 - [test_01_register.py-->line:67] - INFO: 手机号-空的执行结果为Success
+2019-11-26 16:40:11,364 - [test_01_register.py-->line:67] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-26 16:40:11,651 - [test_01_register.py-->line:67] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-26 16:40:12,091 - [test_01_register.py-->line:67] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-26 16:40:12,380 - [test_01_register.py-->line:67] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-26 16:40:12,869 - [test_01_register.py-->line:67] - INFO: 密码-空的执行结果为Success
+2019-11-26 16:40:13,476 - [test_01_register.py-->line:67] - INFO: 密码-少于8位的执行结果为Success
+2019-11-26 16:40:13,981 - [test_01_register.py-->line:67] - INFO: 密码-多于16位的执行结果为Success
+2019-11-26 16:40:14,304 - [test_01_register.py-->line:67] - INFO: 手机号-已注册的执行结果为Success
+2019-11-26 16:40:14,683 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-26 16:40:15,209 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-26 16:40:15,458 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-26 16:40:15,736 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-26 16:40:16,040 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-26 16:40:16,303 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-26 16:40:16,565 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-26 16:40:16,845 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-26 16:40:17,140 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-26 16:40:17,591 - [test_03_recharge.py-->line:115] - INFO: 不登录-充值的执行结果为Success
+2019-11-26 16:40:17,869 - [test_03_recharge.py-->line:115] - INFO: 正常登录的执行结果为Success
+2019-11-26 16:40:18,252 - [test_03_recharge.py-->line:115] - INFO: 充值成功-整数的执行结果为Success
+2019-11-26 16:40:18,620 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1位小数的执行结果为Success
+2019-11-26 16:40:19,004 - [test_03_recharge.py-->line:115] - INFO: 充值成功-2位小数的执行结果为Success
+2019-11-26 16:40:19,420 - [test_03_recharge.py-->line:115] - INFO: 充值成功-0.1元的执行结果为Success
+2019-11-26 16:40:19,878 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1元的执行结果为Success
+2019-11-26 16:40:20,509 - [test_03_recharge.py-->line:115] - INFO: 充值成功-50万的执行结果为Success
+2019-11-26 16:40:20,802 - [test_03_recharge.py-->line:98] - ERROR: 会员id-字符串的执行结果为Fail，具体异常为：2 != 0 : 会员id-字符串
+
+2019-11-26 16:40:21,118 - [test_03_recharge.py-->line:115] - INFO: 会员id-空的执行结果为Success
+2019-11-26 16:40:21,617 - [test_03_recharge.py-->line:98] - ERROR: 会员id-不存在的执行结果为Fail，具体异常为：1001 != 1007 : 会员id-不存在
+
+2019-11-26 16:40:22,026 - [test_03_recharge.py-->line:115] - INFO: 会员id-整数的执行结果为Success
+2019-11-26 16:40:22,276 - [test_03_recharge.py-->line:115] - INFO: 会员id-小数的执行结果为Success
+2019-11-26 16:40:22,715 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-字符串的执行结果为Fail，具体异常为：'666.0' != 666.0 : 充值金额有误!
+
+2019-11-26 16:40:23,063 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-0的执行结果为Fail，具体异常为：2 != 0 : 充值金额-0
+
+2019-11-26 16:40:23,460 - [test_03_recharge.py-->line:115] - INFO: 充值金额-负数的执行结果为Success
+2019-11-26 16:40:23,743 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-空的执行结果为Fail，具体异常为：1 != 2 : 充值金额-空
+
+2019-11-26 16:40:23,996 - [test_03_recharge.py-->line:115] - INFO: 充值金额-3位小数的执行结果为Success
+2019-11-26 16:40:24,254 - [test_03_recharge.py-->line:115] - INFO: 充值金额-大于50万的执行结果为Success
+2019-11-26 16:40:24,664 - [test_03_recharge.py-->line:115] - INFO: 充值金额-非数字的执行结果为Success
+2019-11-26 16:40:25,253 - [test_04_add.py-->line:81] - INFO: 不登录-加标的执行结果为Success
+2019-11-26 16:40:25,917 - [test_04_add.py-->line:81] - INFO: 正常登录的执行结果为Success
+2019-11-26 16:40:27,021 - [test_04_add.py-->line:81] - INFO: 加标成功的执行结果为Success
+2019-11-26 16:40:27,365 - [test_04_add.py-->line:81] - INFO: 借款人id为空的执行结果为Success
+2019-11-26 16:40:27,615 - [test_04_add.py-->line:81] - INFO: 标题为空的执行结果为Success
+2019-11-26 16:40:27,872 - [test_04_add.py-->line:81] - INFO: 借款金额为空的执行结果为Success
+2019-11-26 16:40:28,152 - [test_04_add.py-->line:81] - INFO: 年利率为空的执行结果为Success
+2019-11-26 16:40:28,432 - [test_04_add.py-->line:81] - INFO: 借款期限为空的执行结果为Success
+2019-11-26 16:40:28,770 - [test_04_add.py-->line:66] - ERROR: 借款期限为字符串的执行结果为Fail，具体异常为：2 != 0 : 借款期限为字符串
+
+2019-11-26 16:40:29,090 - [test_04_add.py-->line:81] - INFO: 借款期限类型为空的执行结果为Success
+2019-11-26 16:40:29,350 - [test_04_add.py-->line:81] - INFO: 竞标天数为空的执行结果为Success
+2019-11-26 16:40:29,617 - [test_04_add.py-->line:81] - INFO: 借款人id为负数的执行结果为Success
+2019-11-26 16:40:30,017 - [test_04_add.py-->line:66] - ERROR: 借款人id为小数的执行结果为Fail，具体异常为：2 != 1007 : 借款人id为小数
+
+2019-11-26 16:40:30,599 - [test_04_add.py-->line:81] - INFO: 借款人id不存在的执行结果为Success
+2019-11-26 16:40:31,691 - [test_04_add.py-->line:81] - INFO: 借款金额为负数的执行结果为Success
+2019-11-26 16:40:32,024 - [test_04_add.py-->line:81] - INFO: 借款金额为小数的执行结果为Success
+2019-11-26 16:40:32,468 - [test_05_invest.py-->line:109] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 16:40:32,803 - [test_05_invest.py-->line:109] - INFO: 借款人加标的执行结果为Success
+2019-11-26 16:40:33,129 - [test_05_invest.py-->line:109] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 16:40:33,430 - [test_05_invest.py-->line:109] - INFO: 管理员审核的执行结果为Success
+2019-11-26 16:40:33,726 - [test_05_invest.py-->line:109] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 16:40:34,048 - [test_05_invest.py-->line:109] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 16:40:34,338 - [test_05_invest.py-->line:109] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 16:40:34,636 - [test_05_invest.py-->line:109] - INFO: 标id为空的执行结果为Success
+2019-11-26 16:40:34,922 - [test_05_invest.py-->line:109] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 16:40:35,255 - [test_05_invest.py-->line:109] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 16:40:35,554 - [test_05_invest.py-->line:109] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 16:40:35,814 - [test_05_invest.py-->line:109] - INFO: 标id为负数的执行结果为Success
+2019-11-26 16:40:36,144 - [test_05_invest.py-->line:109] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 16:40:36,431 - [test_05_invest.py-->line:109] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 16:40:36,679 - [test_05_invest.py-->line:109] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 16:40:37,356 - [test_05_invest.py-->line:109] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 16:40:37,919 - [test_05_invest.py-->line:109] - INFO: 标id不存在的执行结果为Success
+2019-11-26 16:40:38,389 - [test_05_invest.py-->line:109] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 17:24:55,022 - [retest_05_invest.py-->line:118] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 17:24:55,474 - [retest_05_invest.py-->line:118] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 17:24:55,885 - [retest_05_invest.py-->line:118] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 17:24:56,226 - [retest_05_invest.py-->line:118] - INFO: 标id为空的执行结果为Success
+2019-11-26 17:24:57,232 - [retest_05_invest.py-->line:118] - INFO: 标id不存在的执行结果为Success
+2019-11-26 17:29:27,963 - [retest_05_invest.py-->line:118] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 17:29:28,403 - [retest_05_invest.py-->line:118] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 17:29:28,752 - [retest_05_invest.py-->line:118] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 17:29:29,091 - [retest_05_invest.py-->line:118] - INFO: 标id为空的执行结果为Success
+2019-11-26 17:29:29,970 - [retest_05_invest.py-->line:118] - INFO: 标id不存在的执行结果为Success
+2019-11-26 17:31:02,912 - [retest_05_invest.py-->line:118] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 17:31:03,249 - [retest_05_invest.py-->line:118] - INFO: 借款人加标的执行结果为Success
+2019-11-26 17:31:03,527 - [retest_05_invest.py-->line:118] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 17:31:03,815 - [retest_05_invest.py-->line:118] - INFO: 管理员审核的执行结果为Success
+2019-11-26 17:31:04,071 - [retest_05_invest.py-->line:118] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 17:31:04,396 - [retest_05_invest.py-->line:118] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 17:31:04,688 - [retest_05_invest.py-->line:118] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 17:31:05,255 - [retest_05_invest.py-->line:118] - INFO: 标id为空的执行结果为Success
+2019-11-26 17:31:05,655 - [retest_05_invest.py-->line:118] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 17:31:06,122 - [retest_05_invest.py-->line:118] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 17:31:06,740 - [retest_05_invest.py-->line:118] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 17:31:07,073 - [retest_05_invest.py-->line:118] - INFO: 标id为负数的执行结果为Success
+2019-11-26 17:31:07,370 - [retest_05_invest.py-->line:118] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 17:31:07,652 - [retest_05_invest.py-->line:118] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 17:31:07,928 - [retest_05_invest.py-->line:118] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 17:31:08,401 - [retest_05_invest.py-->line:118] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 17:31:08,941 - [retest_05_invest.py-->line:118] - INFO: 标id不存在的执行结果为Success
+2019-11-26 17:31:09,239 - [retest_05_invest.py-->line:118] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 17:34:17,893 - [test_01_register.py-->line:67] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-26 17:34:18,422 - [test_01_register.py-->line:67] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-26 17:34:18,981 - [test_01_register.py-->line:67] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-26 17:34:19,229 - [test_01_register.py-->line:67] - INFO: 手机号-空的执行结果为Success
+2019-11-26 17:34:19,489 - [test_01_register.py-->line:67] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-26 17:34:20,016 - [test_01_register.py-->line:67] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-26 17:34:20,306 - [test_01_register.py-->line:67] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-26 17:34:20,622 - [test_01_register.py-->line:67] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-26 17:34:21,206 - [test_01_register.py-->line:67] - INFO: 密码-空的执行结果为Success
+2019-11-26 17:34:22,075 - [test_01_register.py-->line:67] - INFO: 密码-少于8位的执行结果为Success
+2019-11-26 17:34:22,601 - [test_01_register.py-->line:67] - INFO: 密码-多于16位的执行结果为Success
+2019-11-26 17:34:22,887 - [test_01_register.py-->line:67] - INFO: 手机号-已注册的执行结果为Success
+2019-11-26 17:34:23,210 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-26 17:34:23,832 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-26 17:34:24,114 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-26 17:34:24,408 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-26 17:34:24,783 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-26 17:34:25,336 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-26 17:34:25,581 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-26 17:34:25,848 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-26 17:34:26,177 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-26 17:34:26,807 - [test_03_recharge.py-->line:115] - INFO: 不登录-充值的执行结果为Success
+2019-11-26 17:34:27,203 - [test_03_recharge.py-->line:115] - INFO: 正常登录的执行结果为Success
+2019-11-26 17:34:27,782 - [test_03_recharge.py-->line:115] - INFO: 充值成功-整数的执行结果为Success
+2019-11-26 17:34:28,358 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1位小数的执行结果为Success
+2019-11-26 17:34:28,957 - [test_03_recharge.py-->line:115] - INFO: 充值成功-2位小数的执行结果为Success
+2019-11-26 17:34:29,448 - [test_03_recharge.py-->line:115] - INFO: 充值成功-0.1元的执行结果为Success
+2019-11-26 17:34:30,271 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1元的执行结果为Success
+2019-11-26 17:34:33,372 - [test_03_recharge.py-->line:115] - INFO: 充值成功-50万的执行结果为Success
+2019-11-26 17:34:33,935 - [test_03_recharge.py-->line:98] - ERROR: 会员id-字符串的执行结果为Fail，具体异常为：2 != 0 : 会员id-字符串
+
+2019-11-26 17:34:34,802 - [test_03_recharge.py-->line:115] - INFO: 会员id-空的执行结果为Success
+2019-11-26 17:34:36,365 - [test_03_recharge.py-->line:98] - ERROR: 会员id-不存在的执行结果为Fail，具体异常为：1001 != 1007 : 会员id-不存在
+
+2019-11-26 17:34:37,603 - [test_03_recharge.py-->line:115] - INFO: 会员id-整数的执行结果为Success
+2019-11-26 17:34:37,868 - [test_03_recharge.py-->line:115] - INFO: 会员id-小数的执行结果为Success
+2019-11-26 17:34:38,569 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-字符串的执行结果为Fail，具体异常为：'666.0' != 666.0 : 充值金额有误!
+
+2019-11-26 17:34:38,877 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-0的执行结果为Fail，具体异常为：2 != 0 : 充值金额-0
+
+2019-11-26 17:34:39,205 - [test_03_recharge.py-->line:115] - INFO: 充值金额-负数的执行结果为Success
+2019-11-26 17:34:39,550 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-空的执行结果为Fail，具体异常为：1 != 2 : 充值金额-空
+
+2019-11-26 17:34:39,984 - [test_03_recharge.py-->line:115] - INFO: 充值金额-3位小数的执行结果为Success
+2019-11-26 17:34:40,236 - [test_03_recharge.py-->line:115] - INFO: 充值金额-大于50万的执行结果为Success
+2019-11-26 17:34:40,520 - [test_03_recharge.py-->line:115] - INFO: 充值金额-非数字的执行结果为Success
+2019-11-26 17:34:41,092 - [test_04_add.py-->line:81] - INFO: 不登录-加标的执行结果为Success
+2019-11-26 17:34:41,412 - [test_04_add.py-->line:81] - INFO: 正常登录的执行结果为Success
+2019-11-26 17:34:41,663 - [test_04_add.py-->line:81] - INFO: 加标成功的执行结果为Success
+2019-11-26 17:34:41,972 - [test_04_add.py-->line:81] - INFO: 借款人id为空的执行结果为Success
+2019-11-26 17:34:42,430 - [test_04_add.py-->line:81] - INFO: 标题为空的执行结果为Success
+2019-11-26 17:34:42,761 - [test_04_add.py-->line:81] - INFO: 借款金额为空的执行结果为Success
+2019-11-26 17:34:43,047 - [test_04_add.py-->line:81] - INFO: 年利率为空的执行结果为Success
+2019-11-26 17:34:43,298 - [test_04_add.py-->line:81] - INFO: 借款期限为空的执行结果为Success
+2019-11-26 17:34:43,630 - [test_04_add.py-->line:66] - ERROR: 借款期限为字符串的执行结果为Fail，具体异常为：2 != 0 : 借款期限为字符串
+
+2019-11-26 17:34:43,914 - [test_04_add.py-->line:81] - INFO: 借款期限类型为空的执行结果为Success
+2019-11-26 17:34:44,231 - [test_04_add.py-->line:81] - INFO: 竞标天数为空的执行结果为Success
+2019-11-26 17:34:44,588 - [test_04_add.py-->line:81] - INFO: 借款人id为负数的执行结果为Success
+2019-11-26 17:34:44,883 - [test_04_add.py-->line:66] - ERROR: 借款人id为小数的执行结果为Fail，具体异常为：2 != 1007 : 借款人id为小数
+
+2019-11-26 17:34:45,260 - [test_04_add.py-->line:81] - INFO: 借款人id不存在的执行结果为Success
+2019-11-26 17:34:45,534 - [test_04_add.py-->line:81] - INFO: 借款金额为负数的执行结果为Success
+2019-11-26 17:34:45,788 - [test_04_add.py-->line:81] - INFO: 借款金额为小数的执行结果为Success
+2019-11-26 17:34:46,192 - [test_05_invest.py-->line:118] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 17:34:46,551 - [test_05_invest.py-->line:118] - INFO: 借款人加标的执行结果为Success
+2019-11-26 17:34:46,841 - [test_05_invest.py-->line:118] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 17:34:47,147 - [test_05_invest.py-->line:118] - INFO: 管理员审核的执行结果为Success
+2019-11-26 17:34:47,468 - [test_05_invest.py-->line:118] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 17:34:47,810 - [test_05_invest.py-->line:118] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 17:34:48,159 - [test_05_invest.py-->line:118] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 17:34:48,430 - [test_05_invest.py-->line:118] - INFO: 标id为空的执行结果为Success
+2019-11-26 17:34:48,688 - [test_05_invest.py-->line:118] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 17:34:48,996 - [test_05_invest.py-->line:118] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 17:34:49,397 - [test_05_invest.py-->line:118] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 17:34:49,680 - [test_05_invest.py-->line:118] - INFO: 标id为负数的执行结果为Success
+2019-11-26 17:34:49,984 - [test_05_invest.py-->line:118] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 17:34:50,239 - [test_05_invest.py-->line:118] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 17:34:50,501 - [test_05_invest.py-->line:118] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 17:34:51,107 - [test_05_invest.py-->line:118] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 17:34:51,512 - [test_05_invest.py-->line:118] - INFO: 标id不存在的执行结果为Success
+2019-11-26 17:34:51,773 - [test_05_invest.py-->line:118] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 17:34:52,382 - [test_06_invest.py-->line:109] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 17:34:52,862 - [test_06_invest.py-->line:109] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 17:34:53,158 - [test_06_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：0 != 2 : 管理员审核
+
+2019-11-26 17:34:53,457 - [test_06_invest.py-->line:109] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 17:34:53,728 - [test_06_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：0 != 2 : 投资人正常投资
+
+2019-11-26 17:34:54,053 - [test_06_invest.py-->line:109] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 17:34:54,311 - [test_06_invest.py-->line:109] - INFO: 标id为空的执行结果为Success
+2019-11-26 17:34:54,565 - [test_06_invest.py-->line:109] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 17:34:54,861 - [test_06_invest.py-->line:109] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 17:34:55,132 - [test_06_invest.py-->line:109] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 17:34:55,663 - [test_06_invest.py-->line:109] - INFO: 标id为负数的执行结果为Success
+2019-11-26 17:34:55,961 - [test_06_invest.py-->line:109] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 17:34:57,202 - [test_06_invest.py-->line:109] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 17:34:58,485 - [test_06_invest.py-->line:109] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 17:34:59,218 - [test_06_invest.py-->line:109] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 17:35:01,746 - [test_06_invest.py-->line:109] - INFO: 标id不存在的执行结果为Success
+2019-11-26 17:35:02,175 - [test_06_invest.py-->line:109] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 18:12:23,417 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 18:12:23,745 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-26 18:12:24,055 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 18:12:24,352 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-26 18:12:24,656 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 18:12:24,916 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 18:12:25,180 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 18:12:25,479 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-26 18:12:25,738 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 18:12:25,980 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 18:12:26,269 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 18:12:26,845 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-26 18:12:27,093 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 18:12:27,348 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 18:12:27,598 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 18:12:28,013 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 18:12:28,477 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-26 18:12:28,751 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-26 19:29:51,388 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-26 19:29:51,576 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-26 19:29:51,725 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-26 19:29:51,864 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-26 19:29:52,008 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-26 19:29:52,140 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-26 19:29:52,256 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-26 19:29:52,374 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-26 19:29:52,492 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-26 19:29:52,611 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-26 19:29:52,737 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-26 19:29:52,856 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-26 19:29:52,983 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-26 19:29:53,102 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-26 19:29:53,227 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-26 19:29:53,458 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-26 19:29:53,713 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-26 19:29:53,878 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 03:23:35,234 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 03:23:35,392 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 03:23:35,532 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 03:23:35,663 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-27 03:23:35,804 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 03:23:35,941 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-27 03:23:36,077 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 03:23:36,190 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 03:23:36,318 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 03:23:36,430 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 03:23:36,545 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 03:23:36,657 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 03:23:36,773 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 03:23:36,887 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 03:23:37,004 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 03:23:37,226 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 03:23:37,445 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 03:23:37,594 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 03:47:31,760 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:31,871 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:31,982 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,101 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,212 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,330 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,445 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,557 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 03:47:32,834 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:33,125 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:33,391 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:33,666 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:33,935 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:34,210 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:34,499 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:34,834 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 03:47:34,945 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,067 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,181 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,295 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,410 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,519 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,628 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,755 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 03:47:35,867 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:35,978 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,089 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,199 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,310 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,429 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,553 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,668 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 03:47:36,780 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:36,891 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,002 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,120 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,239 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,348 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,459 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,570 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 03:47:37,680 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:37,796 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:37,912 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,027 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,152 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,263 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,381 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,491 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 03:47:38,602 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:38,713 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:38,830 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:38,941 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:39,050 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:39,165 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:39,274 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:39,402 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 03:47:39,512 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:39,623 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:39,749 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:39,866 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:39,994 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:40,104 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:40,219 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:40,329 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 03:47:40,469 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:40,609 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:40,720 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:40,833 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:40,958 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:41,069 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:41,186 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 03:47:41,313 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:37,237 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,348 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,461 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,594 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,729 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,840 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:37,954 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:38,066 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:00:38,341 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:38,622 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:38,910 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:39,179 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:39,451 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:39,722 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:40,014 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:40,300 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:00:40,412 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:40,535 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:40,647 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:40,758 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:40,879 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:40,989 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:41,109 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:41,221 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:00:41,331 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:41,442 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:41,559 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:41,670 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:41,782 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:41,894 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:42,021 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:42,148 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:00:42,259 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,371 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,481 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,595 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,712 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,823 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:42,933 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:43,064 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:00:43,178 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,289 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,400 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,512 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,648 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,762 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,874 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:43,987 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:00:44,099 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,217 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,340 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,454 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,567 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,680 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,792 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:44,903 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:00:45,015 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,128 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,255 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,373 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,485 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,595 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,712 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,825 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:00:45,938 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,051 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,163 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,275 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,397 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,508 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,620 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:00:46,748 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:02:08,855 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-27 04:02:09,124 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-27 04:02:09,244 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-27 04:02:09,363 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-27 04:02:09,470 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-27 04:02:09,581 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-27 04:02:09,690 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-27 04:02:09,799 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-27 04:02:09,920 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-27 04:29:39,938 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 04:29:40,237 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 04:29:40,451 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 04:29:40,646 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-27 04:29:40,825 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 04:29:41,025 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-27 04:29:41,214 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 04:29:41,394 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 04:29:41,581 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 04:29:41,761 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 04:29:41,947 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 04:29:42,139 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 04:29:42,328 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 04:29:42,512 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 04:29:42,709 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 04:29:42,946 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 04:29:43,177 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 04:29:43,387 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:26,399 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:26,571 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:26,727 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:26,914 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:27,071 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:27,242 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:27,414 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:27,586 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:27,758 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:11:28,039 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:28,352 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:28,648 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:28,914 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:29,226 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:29,539 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:29,836 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:30,132 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:30,429 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:11:30,632 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:30,804 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,007 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,163 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,335 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,507 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,679 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:31,851 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:32,038 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:11:32,226 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-27 19:11:32,382 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:32,569 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:32,757 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:32,944 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:33,116 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:33,288 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:33,460 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:33,632 - [test_05_invest.py-->line:67] - ERROR: 管理员审核的执行结果为Fail，具体异常为：管理员审核 :: 0 != 2
+
+2019-11-27 19:11:33,819 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:33,991 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:34,163 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:34,335 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:34,506 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:34,678 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:34,850 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:35,022 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:35,209 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:11:35,412 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-27 19:11:35,600 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:35,772 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:35,944 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,131 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,303 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,475 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,647 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,818 - [test_05_invest.py-->line:67] - ERROR: 投资人正常投资的执行结果为Fail，具体异常为：投资人正常投资 :: 0 != 2
+
+2019-11-27 19:11:36,990 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:37,162 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:37,334 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:37,521 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:37,693 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:37,896 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:38,068 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:38,240 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:38,412 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:11:38,584 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:38,755 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:38,943 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,115 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,271 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,443 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,615 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,786 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:39,989 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:11:40,161 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:40,380 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:40,567 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:40,739 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:40,911 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:41,083 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:41,239 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:41,427 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:41,598 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:11:41,755 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:41,927 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,098 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,270 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,458 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,629 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,801 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:42,973 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:43,161 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:11:43,332 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:43,504 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:43,676 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:43,864 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,035 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,192 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,379 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,551 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,723 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:11:44,941 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:45,160 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:45,332 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:45,504 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:45,676 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:45,863 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:46,035 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:46,207 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:46,379 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:11:46,550 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:46,722 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:46,894 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,066 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,269 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,441 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,613 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,785 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:47,988 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:11:48,144 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:48,331 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:48,503 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:48,659 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:48,847 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:49,019 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:49,190 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:49,378 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:49,550 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:11:49,737 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:49,909 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:50,081 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:50,268 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:50,440 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:50,643 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:50,831 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:51,003 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:51,190 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:11:51,393 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:51,612 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:51,830 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:52,049 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:52,268 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:52,487 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:52,705 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:52,908 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:53,127 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:11:53,330 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:53,564 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:53,799 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:54,033 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:54,236 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:54,455 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:54,658 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:54,877 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:55,080 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:11:55,252 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:55,439 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:55,611 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:55,783 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:55,970 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:56,142 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:56,314 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:56,517 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:11:56,704 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-27 19:12:31,930 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-27 19:12:32,227 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-27 19:12:32,446 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-27 19:12:32,633 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-27 19:12:32,836 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-27 19:12:33,055 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-27 19:12:33,227 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-27 19:12:33,399 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-27 19:12:33,555 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-27 19:12:33,742 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-27 19:12:33,946 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-27 19:12:34,149 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-27 19:12:34,352 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-27 19:12:34,539 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-27 19:12:34,727 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-27 19:12:34,930 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-27 19:12:35,148 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-27 19:12:35,351 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success
+2019-11-28 19:35:05,817 - [test_01_register.py-->line:68] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-28 19:35:06,088 - [test_01_register.py-->line:68] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-28 19:35:06,320 - [test_01_register.py-->line:68] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-28 19:35:06,502 - [test_01_register.py-->line:68] - INFO: 手机号-空的执行结果为Success
+2019-11-28 19:35:06,671 - [test_01_register.py-->line:68] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-28 19:35:06,840 - [test_01_register.py-->line:68] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-28 19:35:07,009 - [test_01_register.py-->line:68] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-28 19:35:07,183 - [test_01_register.py-->line:68] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-28 19:35:07,421 - [test_01_register.py-->line:68] - INFO: 密码-空的执行结果为Success
+2019-11-28 19:35:07,674 - [test_01_register.py-->line:68] - INFO: 密码-少于8位的执行结果为Success
+2019-11-28 19:35:07,917 - [test_01_register.py-->line:68] - INFO: 密码-多于16位的执行结果为Success
+2019-11-28 19:35:08,112 - [test_01_register.py-->line:68] - INFO: 手机号-已注册的执行结果为Success
+2019-11-28 19:35:58,142 - [test_01_register.py-->line:70] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-28 19:35:58,397 - [test_01_register.py-->line:70] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-28 19:35:58,626 - [test_01_register.py-->line:70] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-28 19:35:58,804 - [test_01_register.py-->line:70] - INFO: 手机号-空的执行结果为Success
+2019-11-28 19:35:58,971 - [test_01_register.py-->line:70] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-28 19:35:59,140 - [test_01_register.py-->line:70] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-28 19:35:59,315 - [test_01_register.py-->line:70] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-28 19:35:59,482 - [test_01_register.py-->line:70] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-28 19:35:59,703 - [test_01_register.py-->line:70] - INFO: 密码-空的执行结果为Success
+2019-11-28 19:35:59,932 - [test_01_register.py-->line:70] - INFO: 密码-少于8位的执行结果为Success
+2019-11-28 19:36:00,163 - [test_01_register.py-->line:70] - INFO: 密码-多于16位的执行结果为Success
+2019-11-28 19:36:00,370 - [test_01_register.py-->line:70] - INFO: 手机号-已注册的执行结果为Success
+2019-11-28 21:05:05,682 - [test_01_register.py-->line:70] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-28 21:05:05,950 - [test_01_register.py-->line:70] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-28 21:05:06,184 - [test_01_register.py-->line:70] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-28 21:05:06,371 - [test_01_register.py-->line:70] - INFO: 手机号-空的执行结果为Success
+2019-11-28 21:05:06,539 - [test_01_register.py-->line:70] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-28 21:05:06,717 - [test_01_register.py-->line:70] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-28 21:05:06,898 - [test_01_register.py-->line:70] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-28 21:05:07,066 - [test_01_register.py-->line:70] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-28 21:05:07,301 - [test_01_register.py-->line:70] - INFO: 密码-空的执行结果为Success
+2019-11-28 21:05:07,538 - [test_01_register.py-->line:70] - INFO: 密码-少于8位的执行结果为Success
+2019-11-28 21:05:07,788 - [test_01_register.py-->line:70] - INFO: 密码-多于16位的执行结果为Success
+2019-11-28 21:05:07,991 - [test_01_register.py-->line:70] - INFO: 手机号-已注册的执行结果为Success
+2019-11-29 00:46:33,689 - [test_01_register.py-->line:70] - INFO: 成功注册-有昵称的执行结果为Success
+2019-11-29 00:46:33,982 - [test_01_register.py-->line:70] - INFO: 成功注册-无昵称的执行结果为Success
+2019-11-29 00:46:34,220 - [test_01_register.py-->line:70] - INFO: 昵称-超过10位的执行结果为Success
+2019-11-29 00:46:34,401 - [test_01_register.py-->line:70] - INFO: 手机号-空的执行结果为Success
+2019-11-29 00:46:34,592 - [test_01_register.py-->line:70] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-29 00:46:34,776 - [test_01_register.py-->line:70] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-29 00:46:34,959 - [test_01_register.py-->line:70] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-29 00:46:35,132 - [test_01_register.py-->line:70] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-29 00:46:35,361 - [test_01_register.py-->line:70] - INFO: 密码-空的执行结果为Success
+2019-11-29 00:46:35,612 - [test_01_register.py-->line:70] - INFO: 密码-少于8位的执行结果为Success
+2019-11-29 00:46:35,857 - [test_01_register.py-->line:70] - INFO: 密码-多于16位的执行结果为Success
+2019-11-29 00:46:36,063 - [test_01_register.py-->line:70] - INFO: 手机号-已注册的执行结果为Success
+2019-11-29 00:46:36,283 - [test_02_login.py-->line:66] - INFO: 正常登录成功的执行结果为Success
+2019-11-29 00:46:36,551 - [test_02_login.py-->line:66] - INFO: 账号未注册的执行结果为Success
+2019-11-29 00:46:36,732 - [test_02_login.py-->line:66] - INFO: 手机号-空的执行结果为Success
+2019-11-29 00:46:36,930 - [test_02_login.py-->line:66] - INFO: 手机号-不足11位的执行结果为Success
+2019-11-29 00:46:37,113 - [test_02_login.py-->line:66] - INFO: 手机号-超过11位的执行结果为Success
+2019-11-29 00:46:37,295 - [test_02_login.py-->line:66] - INFO: 手机号-包含非数字的执行结果为Success
+2019-11-29 00:46:37,479 - [test_02_login.py-->line:66] - INFO: 手机号-不符合规范的执行结果为Success
+2019-11-29 00:46:37,658 - [test_02_login.py-->line:66] - INFO: 密码-空的执行结果为Success
+2019-11-29 00:46:37,867 - [test_02_login.py-->line:66] - INFO: 密码-错误的执行结果为Success
+2019-11-29 00:46:38,133 - [test_03_recharge.py-->line:115] - INFO: 不登录-充值的执行结果为Success
+2019-11-29 00:46:38,316 - [test_03_recharge.py-->line:115] - INFO: 正常登录的执行结果为Success
+2019-11-29 00:46:38,626 - [test_03_recharge.py-->line:115] - INFO: 充值成功-整数的执行结果为Success
+2019-11-29 00:46:38,938 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1位小数的执行结果为Success
+2019-11-29 00:46:39,256 - [test_03_recharge.py-->line:115] - INFO: 充值成功-2位小数的执行结果为Success
+2019-11-29 00:46:39,568 - [test_03_recharge.py-->line:115] - INFO: 充值成功-0.1元的执行结果为Success
+2019-11-29 00:46:39,883 - [test_03_recharge.py-->line:115] - INFO: 充值成功-1元的执行结果为Success
+2019-11-29 00:46:40,220 - [test_03_recharge.py-->line:115] - INFO: 充值成功-50万的执行结果为Success
+2019-11-29 00:46:40,415 - [test_03_recharge.py-->line:98] - ERROR: 会员id-字符串的执行结果为Fail，具体异常为：2 != 0 : 会员id-字符串
+
+2019-11-29 00:46:40,606 - [test_03_recharge.py-->line:115] - INFO: 会员id-空的执行结果为Success
+2019-11-29 00:46:40,816 - [test_03_recharge.py-->line:98] - ERROR: 会员id-不存在的执行结果为Fail，具体异常为：1001 != 1007 : 会员id-不存在
+
+2019-11-29 00:46:41,130 - [test_03_recharge.py-->line:115] - INFO: 会员id-整数的执行结果为Success
+2019-11-29 00:46:41,309 - [test_03_recharge.py-->line:115] - INFO: 会员id-小数的执行结果为Success
+2019-11-29 00:46:41,627 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-字符串的执行结果为Fail，具体异常为：'666.0' != 666.0 : 充值金额有误!
+
+2019-11-29 00:46:41,820 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-0的执行结果为Fail，具体异常为：2 != 0 : 充值金额-0
+
+2019-11-29 00:46:42,002 - [test_03_recharge.py-->line:115] - INFO: 充值金额-负数的执行结果为Success
+2019-11-29 00:46:42,190 - [test_03_recharge.py-->line:98] - ERROR: 充值金额-空的执行结果为Fail，具体异常为：1 != 2 : 充值金额-空
+
+2019-11-29 00:46:42,370 - [test_03_recharge.py-->line:115] - INFO: 充值金额-3位小数的执行结果为Success
+2019-11-29 00:46:42,549 - [test_03_recharge.py-->line:115] - INFO: 充值金额-大于50万的执行结果为Success
+2019-11-29 00:46:42,728 - [test_03_recharge.py-->line:115] - INFO: 充值金额-非数字的执行结果为Success
+2019-11-29 00:46:42,988 - [test_04_add.py-->line:81] - INFO: 不登录-加标的执行结果为Success
+2019-11-29 00:46:43,217 - [test_04_add.py-->line:81] - INFO: 正常登录的执行结果为Success
+2019-11-29 00:46:43,406 - [test_04_add.py-->line:81] - INFO: 加标成功的执行结果为Success
+2019-11-29 00:46:43,583 - [test_04_add.py-->line:81] - INFO: 借款人id为空的执行结果为Success
+2019-11-29 00:46:43,777 - [test_04_add.py-->line:81] - INFO: 标题为空的执行结果为Success
+2019-11-29 00:46:43,962 - [test_04_add.py-->line:81] - INFO: 借款金额为空的执行结果为Success
+2019-11-29 00:46:44,150 - [test_04_add.py-->line:81] - INFO: 年利率为空的执行结果为Success
+2019-11-29 00:46:44,340 - [test_04_add.py-->line:81] - INFO: 借款期限为空的执行结果为Success
+2019-11-29 00:46:44,527 - [test_04_add.py-->line:66] - ERROR: 借款期限为字符串的执行结果为Fail，具体异常为：2 != 0 : 借款期限为字符串
+
+2019-11-29 00:46:44,702 - [test_04_add.py-->line:81] - INFO: 借款期限类型为空的执行结果为Success
+2019-11-29 00:46:44,906 - [test_04_add.py-->line:81] - INFO: 竞标天数为空的执行结果为Success
+2019-11-29 00:46:45,089 - [test_04_add.py-->line:81] - INFO: 借款人id为负数的执行结果为Success
+2019-11-29 00:46:45,281 - [test_04_add.py-->line:66] - ERROR: 借款人id为小数的执行结果为Fail，具体异常为：2 != 1007 : 借款人id为小数
+
+2019-11-29 00:46:45,489 - [test_04_add.py-->line:81] - INFO: 借款人id不存在的执行结果为Success
+2019-11-29 00:46:45,678 - [test_04_add.py-->line:81] - INFO: 借款金额为负数的执行结果为Success
+2019-11-29 00:46:45,879 - [test_04_add.py-->line:81] - INFO: 借款金额为小数的执行结果为Success
+2019-11-29 00:46:46,139 - [test_05_invest.py-->line:119] - INFO: 借款人正常登录的执行结果为Success
+2019-11-29 00:46:46,420 - [test_05_invest.py-->line:119] - INFO: 借款人加标的执行结果为Success
+2019-11-29 00:46:46,627 - [test_05_invest.py-->line:119] - INFO: 管理员正常登录的执行结果为Success
+2019-11-29 00:46:46,813 - [test_05_invest.py-->line:119] - INFO: 管理员审核的执行结果为Success
+2019-11-29 00:46:47,011 - [test_05_invest.py-->line:119] - INFO: 投资人正常登录的执行结果为Success
+2019-11-29 00:46:47,206 - [test_05_invest.py-->line:119] - INFO: 投资人正常投资的执行结果为Success
+2019-11-29 00:46:47,383 - [test_05_invest.py-->line:119] - INFO: 投资人id为空的执行结果为Success
+2019-11-29 00:46:47,570 - [test_05_invest.py-->line:119] - INFO: 标id为空的执行结果为Success
+2019-11-29 00:46:47,756 - [test_05_invest.py-->line:119] - INFO: 投资金额为空的执行结果为Success
+2019-11-29 00:46:47,929 - [test_05_invest.py-->line:119] - INFO: 投资人id为负数的执行结果为Success
+2019-11-29 00:46:48,110 - [test_05_invest.py-->line:119] - INFO: 投资人id为字符串的执行结果为Success
+2019-11-29 00:46:48,290 - [test_05_invest.py-->line:119] - INFO: 标id为负数的执行结果为Success
+2019-11-29 00:46:48,490 - [test_05_invest.py-->line:119] - INFO: 标id为字符串的执行结果为Success
+2019-11-29 00:46:48,673 - [test_05_invest.py-->line:119] - INFO: 投资金额为负数的执行结果为Success
+2019-11-29 00:46:48,854 - [test_05_invest.py-->line:119] - INFO: 投资金额为不能被100整除的数的执行结果为Success
+2019-11-29 00:46:49,073 - [test_05_invest.py-->line:119] - INFO: 投资人id不存在的执行结果为Success
+2019-11-29 00:46:49,295 - [test_05_invest.py-->line:119] - INFO: 标id不存在的执行结果为Success
+2019-11-29 00:46:49,488 - [test_05_invest.py-->line:119] - INFO: 投资金额大于项目的剩余可投金额的执行结果为Success

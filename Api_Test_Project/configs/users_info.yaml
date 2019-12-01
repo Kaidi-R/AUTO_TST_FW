@@ -1,0 +1,15 @@
+借款人:
+  mobile_phone: '18850248931'
+  pwd: '123456789'
+  reg_name: 借款人
+  user_id: 20677
+投资人:
+  mobile_phone: '18868135024'
+  pwd: '123456789'
+  reg_name: 投资人
+  user_id: 20678
+管理人:
+  mobile_phone: '18870286913'
+  pwd: '123456789'
+  reg_name: 管理人
+  user_id: 20679
